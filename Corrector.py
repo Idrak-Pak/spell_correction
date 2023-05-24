@@ -41,4 +41,4 @@ class Corrector:
 if __name__ == "__main__":
     # Example usage
     word_corrector = Corrector(**config)
-    print(word_corrector.corrector.correct('kher'))
+    print(word_corrector.corrector.correct('BB-Styke'))
