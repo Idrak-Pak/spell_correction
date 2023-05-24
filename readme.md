@@ -18,4 +18,6 @@ pip install -r requirments.txt
     from spellcheck_config import config
     word_corrector = Corrector(**config)
     print(word_corrector.corrector.correct('kher'))
+
+    #input and outout are strings
 ```
