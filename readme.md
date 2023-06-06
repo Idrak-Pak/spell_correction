@@ -9,6 +9,8 @@ pip install -r requirments.txt
 
 ## Ussage: 
 
+*Please refer to example.ipynb for in detail ussage.*
+
 1. Add a txt file as vocab. Check food_vocab.txt as example
 2. Add `config['corrector']['dict_path']= 'food_vocab.txt' ` as a path to vocab
 3. To run the code 
@@ -21,3 +23,4 @@ pip install -r requirments.txt
 
     #input and outout are strings
 ```
+

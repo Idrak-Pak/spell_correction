@@ -39,6 +39,15 @@ class Corrector:
 
             
 if __name__ == "__main__":
+    config = dict()
+
+    # food_config
+    config  = {"words":1,'corrector_type':'pyspellchecker',
+               'corrector':{'dict_path':'food_vocab.txt'}}
+    
+    # address_config 
+    config  = {"words":1,'corrector_type':'pyspellchecker',
+               'corrector':{'dict_path':'address_vocab.txt'}}
     # Example usage
     word_corrector = Corrector(**config)
     print(word_corrector.corrector.correct('BB-Styke'))
